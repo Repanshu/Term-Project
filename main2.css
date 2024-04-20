@@ -3,6 +3,32 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
   }
+
+  }
+  .navbar {
+    background-color: rgb(22, 16, 16); /* Red background color */
+    text-align: left; /* Align the content to the right */
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Align items to the end (right side) */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .navbar button {
+    background-color: rgba(23, 15, 15, 0.612); /* Semi-transparent white background color */
+    color: black; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    margin-left: 10px; /* Add margin between buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .navbar button:hover {
+    background-color: rgba(151, 40, 40, 0.7); /* Lighten background color on hover */
+  }
+  
   
   .container {
     display: flex;
@@ -15,9 +41,11 @@ body {
   .monument {
     width: 300px;
     margin: 20px;
-    background-color: #222; /* Darker background for monument cards */
+    background-color: #222; 
+    /* Darker background for monument cards */
     border-radius: 10px;
     overflow: hidden;
+    background-image: -webkit-image-set();
   }
   
   .monument img {
