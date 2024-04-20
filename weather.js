@@ -2,7 +2,6 @@ const weatherForm = document.querySelector(".weatherForm");
 const city = document.querySelector(".city");
 const card = document.querySelector(".card");
 
-const lol = document.getElementById("lol")
 
 
 
